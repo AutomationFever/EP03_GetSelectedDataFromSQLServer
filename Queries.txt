@@ -1,0 +1,16 @@
+Get all record from a table -
+Select * from Employees
+OR
+Select Name,Age,Work,Income,DOJ from Employees
+
+Sort Data in Ascending Orders by Age -
+Select Name,Age,Work,Income,DOJ from Employees Order By Age
+
+Sort Data in Descending Orders by Age -
+Select Name,Age,Work,Income,DOJ from Employees Order By Age desc
+
+Get Name and Age column from Table -
+Select Name,Age from Employees
+
+Get only those records where Age is greater than 30 -
+Select * from Employees where Age>30
